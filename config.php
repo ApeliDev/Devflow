@@ -1,18 +1,18 @@
 <?php
 // Database configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'devflow_studio');
-define('DB_USER', 'root'); 
-define('DB_PASS', ''); 
+define('DB_NAME', 'stepcash_devflowstudio');
+define('DB_USER', 'stepcash_devflowstudio'); 
+define('DB_PASS', 'devflowstudio'); 
 
 // Email configuration
-define('SMTP_HOST', 'smtp.gmail.com'); 
-define('SMTP_PORT', 587); 
-define('SMTP_USER', 'livingstoneapeli@gmail.com'); 
-define('SMTP_PASS', 'yuea kyxs rtgy qzol'); 
-define('FROM_EMAIL', 'livingstoneapeli@gmail.com');
+define('SMTP_HOST', 'mail.devflowstudio.co.ke'); 
+define('SMTP_PORT', 465); 
+define('SMTP_USER', 'projects@devflowstudio.co.ke'); 
+define('SMTP_PASS', 'devflowstudioadmis'); 
+define('FROM_EMAIL', 'projects@devflowstudio.co.ke');
 define('FROM_NAME', 'DevFlow Studio');
-define('ADMIN_EMAIL', 'tonnytrevix@gmail.com'); 
+define('ADMIN_EMAIL', 'livingstoneapeli@gmail.com'); 
 define('ADMIN_EMAIL2', 'joshuakaingu591@gmail.com'); 
 
 // File upload configuration

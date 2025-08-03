@@ -36,8 +36,8 @@
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li class="flex items-center"><i class="bi bi-envelope mr-2"></i> academics@gmail.com</li>
-                        <li class="flex items-center"><i class="bi bi-envelope mr-2"></i> hello@devflow.studio</li>
+                        <li class="flex items-center"><i class="bi bi-envelope mr-2"></i> support@devflowstudio.co.ke</li>
+                        <li class="flex items-center"><i class="bi bi-envelope mr-2"></i> projects@devflowstudio.co.ke</li>
                         <li class="flex items-center"><i class="bi bi-telephone mr-2"></i> +254 703 410 691</li>
                         <li class="flex items-center"><i class="bi bi-telephone mr-2"></i> +254 719 203 724</li>
                         <li class="flex items-center"><i class="bi bi-geo-alt mr-2"></i> Nairobi, KE</li>
