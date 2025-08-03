@@ -1,0 +1,225 @@
+POST: Array
+(
+)
+
+
+FILES: Array
+(
+)
+POST: Array
+(
+)
+
+
+FILES: Array
+(
+)
+POST: Array
+(
+)
+
+
+FILES: Array
+(
+)
+POST: Array
+(
+)
+
+
+FILES: Array
+(
+)
+POST: Array
+(
+)
+
+
+FILES: Array
+(
+)
+POST: Array
+(
+    [fullName] => livingstone Apeli
+    [email] => livingstoneapeli@gmail.com
+    [institution] => Jomo Kenyatta University
+    [course] => Computer Science
+    [projectType] => capstone
+    [projectDescription] => jjkjkk
+    [requirements] => Array
+        (
+            [0] => detailed_documentation
+            [1] => code_comments
+        )
+
+    [dueDate] => 2025-06-07
+    [agreeTerms] => on
+)
+
+
+FILES: Array
+(
+    [projectFiles] => Array
+        (
+            [name] => Array
+                (
+                    [0] => Figure_122.png
+                    [1] => Figure_122.png
+                )
+
+            [full_path] => Array
+                (
+                    [0] => Figure_122.png
+                    [1] => Figure_122.png
+                )
+
+            [type] => Array
+                (
+                    [0] => image/png
+                    [1] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php6EB1.tmp
+                    [1] => C:\xampp\tmp\php6EE1.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 165592
+                    [1] => 165592
+                )
+
+        )
+
+)
+POST: Array
+(
+    [fullName] => livingstone Apeli
+    [email] => tonnytrevix@gmail.com
+    [institution] => Jomo Kenyatta University
+    [course] => Computer Science
+    [projectType] => assignment
+    [projectDescription] => 4444
+    [requirements] => Array
+        (
+            [0] => detailed_documentation
+        )
+
+    [dueDate] => 2025-06-06
+    [agreeTerms] => on
+)
+
+
+FILES: Array
+(
+    [projectFiles] => Array
+        (
+            [name] => Array
+                (
+                    [0] => Figure_143444.png
+                    [1] => Figure_143444.png
+                )
+
+            [full_path] => Array
+                (
+                    [0] => Figure_143444.png
+                    [1] => Figure_143444.png
+                )
+
+            [type] => Array
+                (
+                    [0] => image/png
+                    [1] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php4E42.tmp
+                    [1] => C:\xampp\tmp\php4EC0.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 152234
+                    [1] => 152234
+                )
+
+        )
+
+)
+POST: Array
+(
+    [fullName] => livingstone Apeli
+    [email] => livingstoneapeli@gmail.com
+    [institution] => Jomo Kenyatta University
+    [course] => Computer Science
+    [projectType] => capstone
+    [projectDescription] => ytjhy
+    [requirements] => Array
+        (
+            [0] => detailed_documentation
+            [1] => code_comments
+        )
+
+    [dueDate] => 2025-05-31
+    [agreeTerms] => on
+)
+
+
+FILES: Array
+(
+    [projectFiles] => Array
+        (
+            [name] => Array
+                (
+                    [0] => image-removebg-preview (1).png
+                    [1] => image-removebg-preview (1).png
+                )
+
+            [full_path] => Array
+                (
+                    [0] => image-removebg-preview (1).png
+                    [1] => image-removebg-preview (1).png
+                )
+
+            [type] => Array
+                (
+                    [0] => image/png
+                    [1] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpC2A8.tmp
+                    [1] => C:\xampp\tmp\phpC336.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 95532
+                    [1] => 95532
+                )
+
+        )
+
+)
