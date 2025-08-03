@@ -1,6 +1,9 @@
 <?php
 require_once 'config.php';
 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 header('Content-Type: application/json');
 
 // Function to sanitize input data
@@ -10,8 +13,8 @@ function sanitizeInput($data) {
 
 // Function to send email
 function sendEmail($to, $subject, $body, $attachments = []) {
-    $mail = new PHPMailer\PHPMailer\PHPMailer(true);
-    
+    $mail = new PHPMailer(true);
+
     try {
         // Server settings
         $mail->isSMTP();
@@ -19,10 +22,12 @@ function sendEmail($to, $subject, $body, $attachments = []) {
         $mail->SMTPAuth   = true;
         $mail->Username   = SMTP_USER;
         $mail->Password   = SMTP_PASS;
-        $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
+
+        // Use SMTPS for port 465
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // <== Change from STARTTLS
         $mail->Port       = SMTP_PORT;
 
-        // Recipients
+        // Sender and recipient
         $mail->setFrom(FROM_EMAIL, FROM_NAME);
         $mail->addAddress($to);
 
@@ -31,7 +36,7 @@ function sendEmail($to, $subject, $body, $attachments = []) {
             $mail->addAttachment($attachment['path'], $attachment['name']);
         }
 
-        // Content
+        // Email content
         $mail->isHTML(true);
         $mail->Subject = $subject;
         $mail->Body    = $body;
@@ -43,6 +48,7 @@ function sendEmail($to, $subject, $body, $attachments = []) {
         return false;
     }
 }
+
 
 // Function to send emails to multiple admins
 function sendAdminEmails($subject, $body, $attachments = []) {

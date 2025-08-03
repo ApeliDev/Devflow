@@ -15,6 +15,7 @@ define('FROM_NAME', 'DevFlow Studio');
 define('ADMIN_EMAIL', 'livingstoneapeli@gmail.com'); 
 define('ADMIN_EMAIL2', 'joshuakaingu591@gmail.com'); 
 
+
 // File upload configuration
 define('UPLOAD_DIR', 'uploads/project_files/');
 define('MAX_FILE_SIZE', 10 * 1024 * 1024); 
@@ -97,7 +98,7 @@ function logUnauthorizedAccess() {
  * Generate secure admin URL
  */
 function getSecureAdminURL($page = 'login') {
-    $baseURL = 'https://devflow.stepcashier.com/'; 
+    $baseURL = 'https://devflows.co.ke/'; 
     return $baseURL . ADMIN_SECRET_PATH . '/' . $page . '.php?token=' . SECURE_ACCESS_TOKEN;
 }
 
